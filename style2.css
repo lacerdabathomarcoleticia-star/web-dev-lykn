@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+    --primary: #000
+}
+
+:root {
+    --back-color: #970c0c49;
+    --nav-color: #0a045c49;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding: 10px;
+}
+
+nava{
+    color: rgb(200, 127, 31);
+    text-decoration: rgb(10, 119, 214);
+    padding: 10px 15px;
+    display: inline-block;
+}
+body {
+    font-family: "Inter", sans-serif;
+    color: rgb(15, 15, 15);
+    background-color: rgb(165, 167, 168)
+}
+
+    img.medium {
+        float: right;
+        width: 500px;
+        height: 650px;
+        float: center;
+        width: 500px;
+        height: 650px;
+        float: center;
+        width: 500px;
+        height: 650px;
+        float: center;
+        width: 500px;
+        height: 675px;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(11, 70, 102);
+}
+
+.inter-uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+}
+
+p.one{border-style: dashed;}
+
+a {
+    text-decoration: dashed;
+    color: rgb(19, 96, 137);
+}
+
+img.large {
+    float: center;
+    width: 500px;
+    height: 650px;
+}
+img.image {
+    float: center;
+    width: 550px;
+    height: 310px;
+}
+
+h2 {
+    color:#bc2f7f;
+}
+
+section {
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+
+}
+
+
+section article {
+    background-color: rgb(10, 26, 86);
+    width: 500px;
+    height: 200px;
+}
+
+
+section article p {
+   line-height: 1.5;
+}
+
+div {
+    color:#ff69b4;
+}
+ 
+.centralizar {
+  text-align: center;
+}
+.lado {
+    text-align: right;
+}
+
+h1 {
+ color: rgb(105, 106, 107);
+}
+
+h3 {
+    color: rgb(105, 106, 107);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff4fa3;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #e83b8d;
+    transform: translateY(-17px);
+}
+
+.img {
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.img:hover {
+    transform: translateY(-17px);
+}
