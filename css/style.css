@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 
 :root {
     --primary: #000   
@@ -42,11 +42,12 @@ a {
     color: rgb(11, 70, 102);
 }
 
-.inter-uniquifier> {
-    font-family: "Inter", sans-serif;
+.inter-uniquifier {
+    font-family: "cinzel";
     font-optical-sizing: auto;
     font-weight: weight;
     font-style : normal;
+    text-align: center;
 }
 
 p.one{border-style: dashed;}
@@ -81,7 +82,7 @@ section {
 section article {
     background-color: rgb(42, 66, 153);
     width: 500px;
-    height: 200px;
+    
 }
 
 
@@ -133,4 +134,7 @@ h3 {
 
 .img:hover {
     transform: translateY(-17px);
+}
+.lk{
+    justify-content: space-around;
 }
