@@ -6,23 +6,45 @@
 
 :root {
     --back-color: #970c0c49;
-    --nav-color: #0a045c49;
+    --nav-color: #090541;
 }
-nav {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img2{
+ 
+ 
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+#bg-video {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--nav-color);
-    padding: 10px;
+    padding: 20px;
+    color: rgb(255, 252, 252);
+
 }
 
 body {
     font-family: "Inter", sans-serif;
     color: rgb(15, 15, 15);
-    background-color: rgb(177, 179, 180)
+    background-color: rgb(69, 75, 75)
 }
-
-    img.medium {
+img.medium {
         float: right;
         width: 500px;
         height: 650px;
@@ -35,11 +57,11 @@ body {
         float: center;
         width: 500px;
         height: 675px;
-    }
+}
 
 a {
     text-decoration: none;
-    color: rgb(11, 70, 102);
+    color: var(--nav-color);
 }
 
 .inter-uniquifier {
@@ -54,7 +76,7 @@ p.one{border-style: dashed;}
 
 a {
     text-decoration: dashed;
-    color: rgb(19, 96, 137);
+    color: rgb(110, 182, 221);
 }
 
 img.large {
@@ -69,7 +91,7 @@ img.image {
 }
 
 h2 {
-    color:#bc2f7f;
+    color:var(--nav-color);
 }
 
 section {
@@ -79,11 +101,7 @@ section {
 }
 
 
-section article {
-    background-color: rgb(42, 66, 153);
-    width: 500px;
-    
-}
+
 
 
 section article p {
@@ -91,18 +109,20 @@ section article p {
 }
 
 div {
-    color:#ff69b4;
+    color: var(--nav-color);
 }
  
 .centralizar {
   text-align: center;
+  
 }
 .lado {
     text-align: right;
 }
 
 h1 {
- color: rgb(75, 76, 76);
+ color: var(--nav-color);
+ 
 }
 
 h3 {
@@ -112,7 +132,7 @@ h3 {
 .button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #ff4fa3;
+    background-color: #4fb0ff;
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -130,6 +150,7 @@ h3 {
     display: inline-block;
     border-radius: 20px;
     transition: 0.5s;
+   
 }
 
 .img:hover {
@@ -137,4 +158,26 @@ h3 {
 }
 .lk{
     justify-content: space-around;
+}
+
+.hero {
+    text-align: center;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("assets/images/lykyou.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 600px;
+    
 }
