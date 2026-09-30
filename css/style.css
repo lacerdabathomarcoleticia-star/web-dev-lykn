@@ -1,20 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+}
 :root {
-    --primary: #000   
+    --primary: #000;
+    --back-color: #970c0c49;
+    --nav-color: #090541;   
 }
 
-:root {
-    --back-color: #970c0c49;
-    --nav-color: #090541;
-}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-img2{
+img{
  
  
   max-width: 100%;
@@ -44,20 +48,7 @@ body {
     color: rgb(15, 15, 15);
     background-color: rgb(69, 75, 75)
 }
-img.medium {
-        float: right;
-        width: 500px;
-        height: 650px;
-        float: center;
-        width: 500px;
-        height: 650px;
-        float: center;
-        width: 500px;
-        height: 650px;
-        float: center;
-        width: 500px;
-        height: 675px;
-}
+
 
 a {
     text-decoration: none;
