@@ -1,0 +1,1 @@
+alert("Esta é uma página de fãs dedicada ao LYKN, criada por fãs e sem vínculo oficial com o grupo ou sua empresa.");
